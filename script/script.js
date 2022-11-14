@@ -4,7 +4,14 @@
 const array = ["patate", "zucchine", "biscotti", "scottex", "detersivo"];
 
 // ciclo per passare in rassegna gli elementi della lista 
-for (let index = 0; index < array.length; index++) {
-    console.log(array[index]);
+// for (let index = 0; index < array.length; index++) {
+//     console.log(array[index]);
     
+// }
+
+// ciclo while idem 
+let index = 0;
+while (index < array.length) {
+    console.log(array[index]);
+    index++;
 }
