@@ -51,6 +51,7 @@ ul#ul {
 
     display: flex;
     list-style: none;
+    flex-wrap: wrap;
 
 }
 
@@ -63,7 +64,7 @@ ul#ul {
 
 .input-group {
 
-    width: 30%;
+    width: 90%;
 }
 
 
