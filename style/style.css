@@ -1,3 +1,4 @@
+/* regole generali  */
 * {
     margin: 0;
     padding: 0;
@@ -22,20 +23,12 @@ img {
     object-position: 0 30%;
 }
 
-#ms_maincont {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height:700px;
-    position: relative;
-}
 
-.img {
-    
-    width: 60%;
-    height: 450px;
+
+/* utility */
+
+.hidden {
     display: none;
-    
 }
 
 .active {
@@ -44,19 +37,34 @@ img {
 
 }
 
-#top {
-    position: absolute;
-    top: 150px;
+/* ms */
+.ms_cont {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 
 
-#bot {
-    position: absolute;
-    bottom: 150px;
+ul#ul {
+
+    display: flex;
+    list-style: none;
 
 }
 
-.hidden {
-    display: none;
+/* bs rules  */
+.form-control {
+
+ width: 30%;
+
 }
+
+.input-group {
+
+    width: 30%;
+}
+
+
+
