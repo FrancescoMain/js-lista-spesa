@@ -33,7 +33,7 @@ function () {
     li.innerHTML =( array[index]);
 
     // inseriamo li in ul 
-    ul.innerHTML = (li);
+    ul.append (li);
 
     // fine ciclo    
     index++;
